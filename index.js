@@ -5,10 +5,6 @@ const tree = require('./commands/tree');
 
 let inputArr = process.argv.slice(2);
 
-//node index.js tree "directory-path"
-//node index.js organize "directory-path"
-//node index.js help
-
 let command = inputArr[0];
 
 switch (command) {
